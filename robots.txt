@@ -1,0 +1,35 @@
+# itnanbargal.com — all search engines and AI assistants are welcome.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /certificate-generator
+
+# AI / LLM crawlers (answer-engine visibility: ChatGPT, Claude, Perplexity, Gemini…)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://itnanbargal.com/sitemap.xml
